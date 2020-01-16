@@ -15,10 +15,10 @@
     limitations under the License.
 -->
 <resources>
-    <string name="app_name">AndServerDemo名字1</string>
+    <string name="app_name">名字ServerDemo</string>
 
     <string name="start_server">Start Server开始服务</string>
-    <string name="stop_server">Stop Server停止服务</string>
+    <string name="stop_server">Stop Server停止服务demo</string>
     <string name="start_browse">Open in browser打开浏览器</string>
 
     <string name="server_stop_succeed">The server has stopped.</string>

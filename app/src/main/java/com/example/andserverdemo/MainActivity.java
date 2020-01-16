@@ -138,10 +138,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (!TextUtils.isEmpty(ip)) {
             List<String> addressList = new LinkedList<>();
-            mRootUrl = "http://" + ip + ":8080/";
+            mRootUrl = "http://" + ip + ":8081/";
             addressList.add(mRootUrl);
             System.out.println("测试：secondApp ip地址为：" + ip);
-            addressList.add("http://" + ip + ":8080/login.html");
+            addressList.add("http://" + ip + ":8081/login.html");
             mTvMessage.setText(TextUtils.join("\n", addressList));
         } else {
             mRootUrl = null;
